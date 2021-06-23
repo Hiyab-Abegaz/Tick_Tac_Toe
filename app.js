@@ -18,6 +18,7 @@ const restartButton = document.getElementById('restart-button')
 const winningMessageTextElement = document.querySelector('[data-winning-message-text]')
 let circleTurn
 
+//Starts game
 startGame()
 
 restartButton.addEventListener('click',startGame)
